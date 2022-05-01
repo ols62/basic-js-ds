@@ -123,19 +123,6 @@ class BinarySearchTree {
   }
 }
 
-/*const bst = new BinarySearchTree();
-console.log("add 13 15 9 20 32 25");
-console.log(bst.root());
-bst.add(13);
-bst.add(15);
-bst.add(9);
-bst.add(20);
-bst.add(18);
-bst.add(32);
-bst.add(25);
-console.log(bst.root());
-console.log(bst);*/
-
 module.exports = {
   BinarySearchTree,
 };
