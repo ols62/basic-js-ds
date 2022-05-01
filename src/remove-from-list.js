@@ -26,7 +26,6 @@ function removeKFromList(l, k) {
   if (l == null) {
     return;
   }
-  let deletedNode = null;
   while (l && l.value === k) {
      l = l.next;
   }
