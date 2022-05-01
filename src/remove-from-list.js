@@ -28,15 +28,13 @@ function removeKFromList(l, k) {
   }
   let deletedNode = null;
   while (l && l.value === k) {
-    deletedNode = this.head;
-    l = l.next;
+     l = l.next;
   }
 
   let currentNode = l;
   if (currentNode !== null) {
     while (currentNode.next) {
       if (currentNode.next.value === k) {
-        deletedNode = currentNode.next;
         currentNode.next = currentNode.next.next;
       } else {
         currentNode = currentNode.next;
